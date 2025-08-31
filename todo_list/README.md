@@ -36,8 +36,8 @@ todo_list/
 ├─ src/                      # 실제 소스 코드
 │   ├─ assets/               # 이미지, 아이콘 등 정적 리소스
 │   ├─ components/           # 재사용 가능한 React 컴포넌트
-│   │   ├─ TodoList.tsx
-│   │   └─ TodoItem.tsx
+│   │   ├─ TodoList.tsx      # 단일 항목 UI, 클릭 이벤트 처리
+│   │   └─ TodoItem.tsx      # 목록 반복 렌더링, 상태 함수 전달
 │   ├─ types.ts             # Todo 타입 정의
 │   ├─ App.tsx               # 최상위 컴포넌트
 │   ├─ main.tsx              # ReactDOM 렌더링 진입점
@@ -48,3 +48,5 @@ todo_list/
 ├─ vite.config.ts            # Vite 설정
 └─ yarn.lock / package-lock.json  # 패키지 잠금 파일
 ```
+
+
