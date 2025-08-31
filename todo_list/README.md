@@ -38,7 +38,7 @@ todo_list/
 │   ├─ components/           # 재사용 가능한 React 컴포넌트
 │   │   ├─ TodoList.tsx      # 단일 항목 UI, 클릭 이벤트 처리
 │   │   └─ TodoItem.tsx      # 목록 반복 렌더링, 상태 함수 전달
-│   ├─ types.ts             # Todo 타입 정의
+│   ├─ types.ts              # Todo 타입 정의
 │   ├─ App.tsx               # 최상위 컴포넌트
 │   ├─ main.tsx              # ReactDOM 렌더링 진입점
 │   └─ index.css             # 전역 스타일
