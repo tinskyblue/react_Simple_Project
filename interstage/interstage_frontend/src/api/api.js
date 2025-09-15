@@ -10,5 +10,9 @@ const API = axios.create({
 // 유저 관련 API
 export const getUsers = () => API.get('/users');
 export const signupUser = (user) => API.post('/users/signup', user);
+export const loginUser = async (data) => {
+  const response = await axios.post("http://localhost:8080/api/users/login", data);
+  return response.data;
+};
 
 export default API;

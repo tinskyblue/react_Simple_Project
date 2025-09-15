@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { useNavigate } from "react-router-dom";
 import { signupUser } from "../api/api";
 
 function Signup() {
@@ -9,6 +10,7 @@ function Signup() {
     email: "",
   });
   const [errors, setErrors] = useState({});
+  const navigate = useNavigate();
 
   const handleChange = (e) => {
     setForm({ ...form, [e.target.name]: e.target.value });
@@ -26,10 +28,10 @@ function Signup() {
     }
 
     // 비밀번호: 8자 이상, 영문 최소 1자, 숫자, 특수문자 포함
-    const passwordPattern = /^(?=.*[A-Za-z])(?=.*\d)(?=.*[@$!%*?&]).{8,}$/;
+    const passwordPattern = /^(?=.*[A-Za-z])(?=.*\d)(?=.*[@$!%*?&~]).{8,}$/;
     if (!form.password || !passwordPattern.test(form.password)) {
       newErrors.password =
-    "비밀번호는 최소 8자 이상, 최소 한 글자 이상의 영문, 숫자, 특수문자를 포함해야 합니다.";
+    "비밀번호는 최소 8자 이상, 영문 1자 이상, 숫자와 특수문자를 포함해야 합니다.";
   }
 
     // 비밀번호 확인
@@ -54,6 +56,7 @@ function Signup() {
     try {
       await signupUser(form);
       alert("회원가입 성공");
+      navigate("/");
     } catch (err) {
       console.error(err);
       alert("회원가입 실패");
