@@ -1,7 +1,7 @@
 # react_Simple_Project
 리액트 간단한 프로젝트
 
-## React + vite + spring boot 로그인/회원가입 프로젝트
+## React + vite + spring boot 로그인/회원가입 구현
 
 ### 사용 기술
 프론트엔드: React.js + Vite<br>
