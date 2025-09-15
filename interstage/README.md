@@ -4,10 +4,10 @@
 ## React + vite + spring boot 로그인/회원가입 프로젝트
 
 ### 사용 기술
-프론트엔드: React.js + Vite
-백엔드: Spring Boot 3.5.5, Mybatis
-DB: PostgreSQL
-IDE: Spring Tool Suite 4, VScode
+프론트엔드: React.js + Vite<br>
+백엔드: Spring Boot 3.5.5, Mybatis<br>
+DB: PostgreSQL<br>
+IDE: Spring Tool Suite 4, VScode<br>
 
 ## 메인 페이지
 <img width="344" height="293" alt="화면 캡처 2025-09-16 021943" src="https://github.com/user-attachments/assets/405d97c1-6326-41e7-a8fd-1a674e8404ce" />
