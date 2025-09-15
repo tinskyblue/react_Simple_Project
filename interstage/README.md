@@ -15,6 +15,9 @@ IDE: Spring Tool Suite 4, VScode<br>
 ## 회원가입 테스트
 <img width="249" height="288" alt="화면 캡처 2025-09-16 021852" src="https://github.com/user-attachments/assets/c9e88f0d-51b2-454a-b64d-d6d4621a56af" />
 <img width="457" height="152" alt="화면 캡처 2025-09-16 021823" src="https://github.com/user-attachments/assets/269b30a3-24a6-4ac0-aecd-fd60831072a3" />
+<<hr>
+
+### 유효성 검사
 <img width="614" height="472" alt="화면 캡처 2025-09-16 021930" src="https://github.com/user-attachments/assets/18096544-3bbc-43da-8ea3-7e4e724b5324" />
 
 ## 로그인 테스트
